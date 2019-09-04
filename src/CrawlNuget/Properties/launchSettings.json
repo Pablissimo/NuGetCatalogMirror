@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CrawlNuget": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Projects\\NeoNuget\\Mirror\""
+    }
+  }
+}

@@ -1,0 +1,7 @@
+web:
+  image: nginx
+  volumes:
+   - ./api.nuget.org:/usr/share/nginx/html:ro
+   - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+  ports:
+   - "8192:80"
